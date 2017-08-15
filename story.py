@@ -1,7 +1,7 @@
+#fix the title project*
 def begin_story(): 
     user_response = 0
-    print('you wake up late what do you do.',
-    'What do you do?')
+    print('you wake up late what do you do?')
     print('Enter the number that corresponds to your decision')
     user_response = int(input('1. You continue to sleep. \n2. You wake up and go shower. \n3. You try to commit suicide with toilet paper '))
     decision1(user_response)
@@ -10,7 +10,7 @@ def decision1(user_response):
 	print("you walk downstairs")
 	if user_response == 1:
 		print("User selected 1. What do you do next?")
-		user_response = int(input("1.go eat breakfast\n2.feed your dog\n3.you eat your dog just kidding"))
+		user_response = int(input("1.go eat breakfast\n2.feed your dog\n3.you eat your dog, just kidding"))
 		decision2_1(user_response)
 	elif user_response == 2:
 		print("User selected 2. What do you do next?")
@@ -72,7 +72,7 @@ def decision3_1(user_response):
     decision3_2(user_response)
   elif user_response == 3:
     print("User selected 3. What do you do next?")
-    user_response = int(input("1.go to the mall\n2.waste money on suprene\n3.waste money on bape"))
+    user_response = int(input("1.go to the mall\n2.waste money on supreme\n3.waste money on bape"))
     decision3_3(user_response)
 
 def decision3_2(user_response):
@@ -94,7 +94,7 @@ def decision3_3(user_response):
   print("This would be the story continuing after the user's third response")
   if user_response == 1:
     print("User selected 1. What do you do next?")
-    user_response = int(input("1.go wipe your face\n2.continue crying\n3.im tired of the storyry end"))
+    user_response = int(input("1.go wipe your face\n2.continue crying\n3.im tired of the story end"))
     decision3_1(user_response)
   elif user_response == 2:
     print("User selected 2. What do you do next?")
